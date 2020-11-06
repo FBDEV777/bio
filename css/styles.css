@@ -10,6 +10,23 @@ body {
   font-family: 'Montserrat-Black', sans-serif;
 }
 
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+ color: #8F8F8F;
+}
+
 /***************CLASSES****************/
 
 .download-btn {
@@ -22,17 +39,11 @@ body {
 
 .fas {
   color: #EF8172;
-  font-size: 4rem;
+  margin-bottom: 1rem;
 }
 
 .fas:hover {
   color: #FF4C68;
-}
-
-.h3-s2 {
-  font-family: "Montserrat";
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .phone-img {
@@ -40,12 +51,10 @@ body {
   width: 60%;
 }
 
-.p-s2 {
-  color: #8F8F8F;
-}
+
 
 .section-2 {
-  padding: 10% 0 10% 0;
+  padding: 5% 0 5% 0;
   text-align: center;
 }
 
@@ -68,6 +77,15 @@ body {
   font-size: 1.2rem;
 }
 
+.testimonial-img {
+  border-radius: 100%;
+  margin: 1em;
+  width: 10%;
+}
+.press-img {
+  margin: 0 20px 0 20px;
+  width: 12%;
+}
 
 
 
@@ -76,4 +94,21 @@ body {
 #title {
   background-color: #FF4C68;
   color: white;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+#testimonials {
+  background-color: #EF8172;
+  padding: 7% 15%;
+  text-align: center;
+  color: #FFF;
+}
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 7%;
 }
