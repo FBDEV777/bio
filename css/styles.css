@@ -91,6 +91,10 @@ p {
   padding: 7% 15%;
 }
 
+.pricing-card {
+  padding: 1.5rem;
+}
+
 
 
 /***************IDS****************/
@@ -114,4 +118,9 @@ p {
   background-color: #EF8172;
   text-align: center;
   padding-bottom: 7%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
 }
