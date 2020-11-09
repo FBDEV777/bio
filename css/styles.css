@@ -34,21 +34,27 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 5%;
 }
 
-.fas {
+.f-row {
   color: #EF8172;
   margin-bottom: 1rem;
 }
 
-.fas:hover {
+.f-row:hover {
   color: #FF4C68;
+}
+
+.footer-links {
+  text-align: center;
 }
 
 .phone-img {
   transform: rotate(25deg);
-  width: 60%;
+  width: 40%;
+  position: absolute;
+  right: 30%
 }
 
 
@@ -95,9 +101,30 @@ p {
   padding: 1.5rem;
 }
 
+.footer-txt {
+  padding: 0 30% 1%;
+  font-size: 40px;
+}
+
+.footer-icon {
+  padding: 0 1% 1%;
+}
+
+.footer-icon:hover {
+  color: #FF4C68;
+}
+
+
 
 
 /***************IDS****************/
+
+#cta {
+  color: #FFF;
+  background-color: #FF4C68;
+  padding: 3% 0 3%;
+  text-align: center;
+}
 
 #title {
   background-color: #FF4C68;
@@ -105,7 +132,9 @@ p {
 }
 
 #features {
+  background-color: #FFF;
   padding: 7% 15%;
+  position: relative;
 }
 
 #testimonials {
@@ -123,4 +152,22 @@ p {
 #pricing {
   padding: 100px;
   text-align: center;
+}
+
+#footer {
+  padding: 2% 0 2%;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+
+  }
 }
