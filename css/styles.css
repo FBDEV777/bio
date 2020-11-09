@@ -159,7 +159,7 @@ p {
   text-align: center;
 }
 
-/* @media (max-width: 1028px) {
+@media (max-width: 1028px) {
 
   #title {
     text-align: center;
@@ -170,4 +170,4 @@ p {
     transform: rotate(0);
 
   }
-} */
+}
